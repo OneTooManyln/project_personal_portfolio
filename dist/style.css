@@ -7,7 +7,7 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
   background-image: url(../img/fernando-hernandez-JdoofvUDUwc-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -28,10 +28,10 @@ body {
 
 .sidebar {
   background-color: #09090b;
-  border-top: 1px solid white;
   position: fixed;
   height: 100vh;
   width: 80px;
+  border-right: 1px solid #f4f4f5;
 }
 
 .main {
@@ -77,4 +77,16 @@ ul {
   color: #09090b;
   letter-spacing: 7px;
   font-size: 1.25rem;
+}
+
+.about {
+  padding: 40px 80px;
+  margin-top: 300px;
+  background-color: #a1a1aa;
+}
+
+.about-title {
+  font-size: 2rem;
+  padding: 5px 10px;
+  border-left: 2px solid #f4f4f5;
 }
