@@ -80,13 +80,51 @@ ul {
 }
 
 .about {
+  display: flex;
+  justify-content: center;
   padding: 40px 80px;
-  margin-top: 300px;
   background-color: #a1a1aa;
 }
 
+.about-container {
+  display: flex;
+  width: 1200px;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 800px;
+  padding: 0px 20px;
+}
+
 .about-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 5px 10px;
   border-left: 2px solid #f4f4f5;
+}
+
+.about-left-bottom-images-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+
+.about-image {
+  background-image: url(../img/fernando-hernandez-vSI8ASKyMJ8-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 400px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+img {
+  height: 90px;
+  width: 90px;
 }
