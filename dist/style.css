@@ -79,7 +79,8 @@ ul {
   font-size: 1.25rem;
 }
 
-.about {
+.about,
+.projects {
   display: flex;
   justify-content: center;
   padding: 40px 80px;
@@ -99,7 +100,8 @@ ul {
   padding: 0px 20px;
 }
 
-.about-title {
+.about-title,
+.projects-title {
   font-size: 2.5rem;
   padding: 5px 10px;
   border-left: 2px solid #f4f4f5;
@@ -118,6 +120,77 @@ ul {
   background-repeat: no-repeat;
   height: 650px;
   width: 400px;
+}
+
+.projects {
+  padding-top: 160px;
+}
+
+.projects-container {
+  width: 1200px;
+}
+
+.projects-showcase-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  gap: 140px;
+}
+
+.project-1,
+.project-2,
+.project-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-img-1,
+.project-img-2,
+.project-img-3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
+}
+
+.project-img-1 {
+  background-image: url(../img/paul-pastourmatzis-KT3WlrL_bsg-unsplash.jpg);
+}
+
+.project-img-2 {
+  background-image: url(../img/keren-fedida-BfGuQJpDolQ-unsplash.jpg);
+}
+
+.project-img-3 {
+  background-image: url(../img/jon-tyson-eTjX8xc1in8-unsplash.jpg);
+}
+
+.project-img-title-1,
+.project-img-title-2,
+.project-img-title-3 {
+  background-color: #09090b;
+  padding: 5px 5px;
+  text-align: center;
+  width: 200px;
+  font-size: 1.2rem;
+  position: relative;
+  left: 300px;
+  bottom: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.164);
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #18181b;
+  width: 550px;
+  height: 300px;
 }
 
 p {
