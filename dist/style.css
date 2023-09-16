@@ -2,7 +2,7 @@
 
 body {
   display: grid;
-  grid-template-rows: 80px auto 150px;
+  grid-template-rows: 80px auto 100px;
   grid-template-columns: 80px auto 400px;
   margin: 0;
   height: 100vh;
@@ -200,6 +200,7 @@ ul {
 
 .contact {
   padding-top: 160px;
+  padding-bottom: 80px;
 }
 
 .contact-main {
@@ -260,14 +261,27 @@ ul {
 .footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   grid-column: 2/4;
   grid-row: 3/4;
-  background-color: #a1a1aa;
+  padding-top: 20px 0px;
 }
 
 .footer-container {
-  display: flex;
   width: 1200px;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #09090b;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 p {
@@ -277,4 +291,9 @@ p {
 img {
   height: 90px;
   width: 90px;
+}
+
+.footer-socials img {
+  height: 40px;
+  width: 40px;
 }
