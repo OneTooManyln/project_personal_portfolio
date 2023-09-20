@@ -148,6 +148,7 @@ ul {
 .about-left-bottom-images-container {
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
   padding: 20px 0px;
 }
 
@@ -234,7 +235,7 @@ ul {
   flex-direction: column;
   justify-content: space-between;
   padding: 20px 40px;
-  background-color: #18181b;
+  background-color: #52525b;
   max-width: 550px;
   min-height: 300px;
 }
@@ -250,6 +251,10 @@ ul {
   flex: 1;
   justify-content: flex-end;
   padding-top: 40px;
+}
+
+.contact-card:hover {
+  cursor: pointer;
 }
 
 .contact-card {
